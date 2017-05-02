@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A trinute page to Chester Bennington</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>?
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<style>
+	body {
+  margin-top: 60px;
+}
+#list-header{
+  margin-top: 40px;
+}
+	</style>
+	
+	
+</head>
+
+<body>
+	<div class="container">
+  <div class="jumbotron">
+    <div><h1 class="text-center" id="main-head">Chester Bennington</h1></br>
+    <h5 class="text-center"><em>The greatest vocalist in the history of rock</em></h5></div>
+<div><img class ="img-responsive img-thumbnail img-center" src="http://theindiespiritualist.com/wp-content/uploads/2012/07/chester-linkin-park.jpg" alt="Chester Bennington"/></div>
+  <div class="caption text-center">Chester performing in Madison Square Garden</div>
+  <div class="text-center"><h3 class="text-center" id="list-header">Here is a brief overview of Chester's life:</h3></br>
+  <p class="text-left">
+    Chester Charles Bennington (born March 20, 1976) is an American musician, singer, songwriter and actor. He is best known as the lead vocalist of rock bands Linkin Park, Dead by Sunrise, and live rock cover band Bucket of Weenies. He was originally the lead vocalist for Sean Dowdell And His Friends? and Grey Daze. Bennington was the lead vocalist for Stone Temple Pilots from 2013 to 2015.</p>
+<p class="text-left">
+Bennington became known as a vocalist with Linkin Park's debut album, Hybrid Theory, in 2000, which was a massive commercial success. The album was certified Diamond by the RIAA in 2005, making it the best-selling debut album of the decade, as well as one of the few albums to ever hit that many sales.[1] Linkin Park's following studio albums, Meteora (2003), Minutes to Midnight (2007), A Thousand Suns (2010), Living Things (2012), and The Hunting Party (2014), continued the band's success. Bennington formed his own band, Dead by Sunrise, as a side project in 2005. The band's debut album, Out of Ashes, was released on October 13, 2009. He worked on new material with Stone Temple Pilots in 2013 to release the EP High Rise on October 8, 2013 via their own record label, Play Pen. Bennington has been ranked in the Top 100 Heavy Metal Vocalists by Hit Parader 
+  </p>
+  </br>
+</div>
+<div id="quote text-center">
+  <blockquote>
+            <h5><p>"I always wanted to be a rock star. That was my childhood dream. That's what I told everybody I was going to be when I grew up."</p></h5>
+            <footer><cite>-Chester Bennington</cite></footer>
+          </blockquote>
+
+</div>
+<h5><p class="text-left">You can read more about Chester Bennington's life <a href="https://en.wikipedia.org/wiki/Chester_Bennington" target="#">here</a></h5></div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("h1").addClass("animated shake");
+});
+</script>
+
+</body>
+
+</html>
