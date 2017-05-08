@@ -1,0 +1,49 @@
+#maincontainer{
+    
+    padding-top: 75px;
+    background-color: #e6e6e6;
+    
+}
+
+#navigation-bar div{
+    
+    background-color: purple;
+    
+}
+
+.navbar-header{
+    padding-left: 0px;
+}
+
+#mainnavbar{
+    padding-right: 70px;
+}
+
+#profile-image{
+    width: 230px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #777;
+}
+
+.social .fa-facebook:hover {
+    color: #4060A5;
+}
+
+.social .fa-github:hover {
+    color: #000000;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
+
+.social .fa{
+    color: white;   
+}
