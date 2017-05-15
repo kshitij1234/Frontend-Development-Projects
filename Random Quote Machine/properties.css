@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.bgim {
+    
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+
+.quote-container {
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  }
+
+#quote{
+    font-family: 'Alex Brush', cursive;
+    color:darkred;
+    font-size: 38px;
+    
+}
+
+#author{
+    font-family: 'Alex Brush', cursive;
+    color:brown;
+    font-size: 34px;
+    
+}
+
+#new-quote{
+    float: right;   
+}
+
+#tweet{
+    float:left;
+}
+
+.fa-twitter:hover,#tweet:hover{
+    color: #4099FF;
+}
+
+.fa-quote-left,.fa-quote-right{
+    color: darkred;
+    font-size: 30px;
+}
