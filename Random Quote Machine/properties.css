@@ -1,4 +1,5 @@
 body, html {
+    display:flex;
     height: 100%;
     margin: 0;
 }
@@ -15,10 +16,14 @@ body, html {
 
 
 .quote-container {
-  position:absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+  margin:30%;
+  padding-bottom:10%;
   }
 
 #quote{
@@ -34,7 +39,9 @@ body, html {
     font-size: 34px;
     
 }
-
+.buttons{
+  
+}
 #new-quote{
     float: right;   
 }
