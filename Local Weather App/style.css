@@ -1,0 +1,27 @@
+body{
+    background-color: #101010;
+}
+
+h1{
+    color:azure;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+}
+
+.icon{
+    padding-top: 50px;
+    width: 108px;
+}
+
+.info{
+    padding-top: 50px;
+    color:antiquewhite;
+    font-size:20px;
+}
+button{
+    margin-top:10px;
+    background-color: #202020 !important;
+    border-color: #202020;
+    color: bisque;
+    font-size: 18px;
+}
