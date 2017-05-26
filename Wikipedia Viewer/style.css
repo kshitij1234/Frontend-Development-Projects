@@ -1,0 +1,33 @@
+body{
+    background-color: #092B40;
+}
+
+.header{
+    margin-top: 3%;
+    font-family: 'Lobster',cursive;
+}
+.head{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+
+.fa-search{
+    color: orange;
+    margin-top:15%;
+    font-size:40px;
+}
+
+#searchbar{
+    display: none;
+    width:280px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; 
+    margin-top:15%;
+}
+
+#query{
+    border-radius: 25px;
+}
