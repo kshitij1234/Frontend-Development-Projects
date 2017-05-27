@@ -3,7 +3,7 @@ var search_term="";
 
 $(document).ready(function(){
     
-    $(".header").addClass("animated slideInDown");
+    $(".header").addClass("animated slideInUp");
     $(".search-tool").addClass("animated slideInLeft");
     $("#query").val("");
     $(".random-article").addClass("animated slideInUp");
