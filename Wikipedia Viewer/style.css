@@ -31,3 +31,10 @@ body{
 #query{
     border-radius: 25px;
 }
+p{
+    color:azure;
+}
+.results{
+    padding-top: 170px;
+    
+}
