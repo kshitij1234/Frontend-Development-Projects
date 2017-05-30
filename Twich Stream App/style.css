@@ -1,0 +1,13 @@
+.header{
+    font-family: 'Graduate', cursive;
+    background-color: aqua;
+    padding-bottom: 10px;
+}
+
+.menu{
+    padding-top:25px;
+}
+
+.btn{
+    width:80px;
+}
