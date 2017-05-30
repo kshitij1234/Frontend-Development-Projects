@@ -1,6 +1,7 @@
 .header{
+    
     font-family: 'Graduate', cursive;
-    background-color: aqua;
+    background-color: palevioletred;
     padding-bottom: 10px;
 }
 
@@ -10,4 +11,24 @@
 
 .btn{
     width:80px;
+}
+#icon{
+    width:80px;
+    height: 50px;
+}
+.row{
+    
+    margin-top: 5px;   
+}
+.online{
+    background-color: greenyellow;
+}
+.offline{
+    background-color: skyblue;
+}
+#name,#streaming{
+    margin-top: 1%;
+}
+.hide{
+    display: hidden;
 }
