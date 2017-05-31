@@ -60,7 +60,8 @@ html,body,.container{
     background-color: #bccd95;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    direction: rtl;
+    text-align: right;
+   
 }
 
 .row1{
@@ -72,5 +73,5 @@ html,body,.container{
 }
 
 .btn:hover,.btn:active,.btn:focus{
-    color: antiquewhite;
+    color: silver;
 }

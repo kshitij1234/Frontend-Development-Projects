@@ -43,42 +43,42 @@
             <div class="calculator text-center">
             
                 <h4 class="" id="title">ELECTRONIC CALCULATOR</h4>
-                <div class="display"><input type="text" readonly id="screen"></div>
+                <div class="display"><input type="text" readonly id="screen" /></div>
                 <div class="row row1">
                 
                     <button class="btn red" id="ac">AC</button>
                     <button class="btn red" id="ce">CE</button>
-                    <button class="btn" id="divide">÷</button>
-                    <button class="btn" id="multiply">x</button>
+                    <button class="btn" id="divide" onclick="addValue('/');">÷</button>
+                    <button class="btn" id="multiply" onclick="addValue('*');">x</button>
                     
                 </div>
                 <div class="row row2">
                 
-                    <button class="btn" id="b7">7</button>
-                    <button class="btn" id="b8">8</button>
-                    <button class="btn" id="b9">9</button>
-                    <button class="btn" id="subtract">-</button>
+                    <button class="btn" id="b7" onclick="addValue(7);">7</button>
+                    <button class="btn" id="b8" onclick="addValue(8);">8</button>
+                    <button class="btn" id="b9" onclick="addValue(9);">9</button>
+                    <button class="btn" id="subtract" onclick="addValue('-');">-</button>
                     
                 </div>
                 <div class="row row3">
                 
-                    <button class="btn" id="b4">4</button>
-                    <button class="btn" id="b5">5</button>
-                    <button class="btn" id="b6">6</button>
-                    <button class="btn" id="add">+</button>
+                    <button class="btn" id="b4" onclick="addValue(4);">4</button>
+                    <button class="btn" id="b5" onclick="addValue(5);">5</button>
+                    <button class="btn" id="b6" onclick="addValue(6);">6</button>
+                    <button class="btn" id="add" onclick="addValue('+');">+</button>
                     
                 </div>
                 <div class="row row4">
                 
-                    <button class="btn" id="b1">1</button>
-                    <button class="btn" id="b2">2</button>
-                    <button class="btn" id="b3">3</button>
+                    <button class="btn" id="b1" onclick="addValue(1);">1</button>
+                    <button class="btn" id="b2" onclick="addValue(2);">2</button>
+                    <button class="btn" id="b3" onclick="addValue(3);">3</button>
                     <button class="btn invisible"></button>
                 </div>
                 <div class="row row5">
                 
-                    <button class="btn" id="b0">0</button>
-                    <button class="btn" id="decimal">.</button>
+                    <button class="btn" id="b0" onclick="addValue(0);">0</button>
+                    <button class="btn" id="decimal" onclick="addValue('.');">.</button>
                     <button class="btn" id="equals">=</button>
                     
                 </div>
