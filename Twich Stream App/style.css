@@ -32,3 +32,6 @@
 .hide{
     display: hidden;
 }
+body{
+    background-color:grey;
+}
