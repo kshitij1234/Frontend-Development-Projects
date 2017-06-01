@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <title>Pomodoro Clock</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Molle|Bonbon|Sail|Lobster|Graduate|Philosopher|Roboto+Mono|Dancing+Script" rel="stylesheet"> 
+        
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--Animate.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        
+        <!-- Font Awesome -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    
+    </head>
+
+    <body>
+    
+        <div class="container">
+            <div class="header">
+                <h2 class="text-center">POMODORO CLOCK</h2>
+            </div>
+            
+            <div class="row buttons">
+                <div class="col-md-3 col-md-offset-3 text-center">
+                    <h6>SESSION LENGTH</h6>
+                    <button class="decrement btn" id="dec-sess">-</button>
+                    <span id="session">25</span>
+                    <button class="increment btn" id="inc-sess">+</button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h6>BREAK LENGTH</h6>
+                    <button class="decrement btn" id="dec-bre">-</button>
+                    <span id="break">5</span>
+                    <button class="increment btn" id="inc-bre">+</button>
+                </div>
+            </div>
+            
+            <div class="col-centered text-center timer">
+            
+                <p class="title">Session</p>
+                <p class="time">25</p>
+            
+            </div>
+            
+            
+        </div>
+    
+    </body>
+
+</html>

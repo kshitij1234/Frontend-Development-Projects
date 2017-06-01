@@ -1,0 +1,58 @@
+body{
+    background-color: #333333
+}
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.text-center{
+    color: white;
+}
+
+.btn,.btn:hover,.btn:active,.btn:focus{
+    font-size: 20px;
+    background-color: #333333;
+    color:white;
+}
+
+.buttons{
+    padding-bottom: 40px;
+}
+
+.timer{
+    border-style: solid;
+    border-width: 2px;
+    border-color: greenyellow;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#session,#break{
+    font-size: 25px;
+}
+
+.title{
+    
+    padding-top: 70px;
+    font-size: 50px;
+}
+
+.time{
+    
+    padding-top: 25px;
+    font-size: 40px;
+}
