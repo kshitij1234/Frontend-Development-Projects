@@ -34,6 +34,8 @@ h2{
     width: 280px;
     height: 280px;
     border-radius: 50%;
+    cursor: pointer;
+    
 }
 
 .col-centered{

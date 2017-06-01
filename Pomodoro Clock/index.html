@@ -46,15 +46,15 @@
             <div class="row buttons">
                 <div class="col-md-3 col-md-offset-3 text-center">
                     <h6>SESSION LENGTH</h6>
-                    <button class="decrement btn" id="dec-sess">-</button>
+                    <button class="decrement btn" id="dec-sess" onclick="sessionclicked(-1);">-</button>
                     <span id="session">25</span>
-                    <button class="increment btn" id="inc-sess">+</button>
+                    <button class="increment btn" id="inc-sess" onclick="sessionclicked(1);">+</button>
                 </div>
                 <div class="col-md-3 text-center">
                     <h6>BREAK LENGTH</h6>
-                    <button class="decrement btn" id="dec-bre">-</button>
+                    <button class="decrement btn" id="dec-bre" onclick="breakclicked(-1);">-</button>
                     <span id="break">5</span>
-                    <button class="increment btn" id="inc-bre">+</button>
+                    <button class="increment btn" id="inc-bre" onclick="breakclicked(1);">+</button>
                 </div>
             </div>
             
@@ -62,7 +62,7 @@
             
                 <p class="title">Session</p>
                 <p class="time">25</p>
-            
+                <audio id="play" src="http://www.soundjay.com/button/beep-07.wav"></audio>
             </div>
             
             
