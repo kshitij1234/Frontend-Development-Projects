@@ -15,3 +15,7 @@ Twitch Streamers App link : https://codepen.io/kshitij1234/full/gWNyEX/
 Electronic Calculator link : https://codepen.io/kshitij1234/full/mmNmxL/
 #
 Pomodoro Clock link : https://codepen.io/kshitij1234/full/qjWQyo/
+#
+Tic Tac Toe link : https://codepen.io/kshitij1234/full/mwqJRj
+#
+Simon Game link : https://codepen.io/kshitij1234/full/gRvQvE
