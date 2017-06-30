@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.title{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display:inline-block;
+    float:none;
+    margin: 15px;
+    cursor: grab;
+}
+
+.row{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 50%;
+    padding-bottom: 15px;
+    margin: 12px;
+        
+}
+
+.mid{
+}
+
+#green-circle{
+    border-color: green;
+}
+
+#yellow-circle{
+    border-color: yellow;
+}
+
+#blue-circle{
+    border-color: blue;
+}
+
+#red-circle{
+    border-color: red;
+}
+
+#display{
+    width: 40px;
+    background-color: mediumpurple;
+    text-align: center;
+}
+
+#red-circle.light{
+    background-color: red;
+}
+
+#green-circle.light{
+    background-color: green;
+}
+
+#yellow-circle.light{
+    background-color: yellow;
+}
+
+#blue-circle.light{
+    background-color: blue;
+}
